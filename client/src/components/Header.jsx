@@ -59,12 +59,12 @@ export default function Header() {
     
     <Link to='/allposts' className="nav-link">
       <Navbar.Link active={path === '/allposts'}  as={'div'} className={`${path === '/allposts' ? 'bg-gray-500 opacity-60 md:text-gray-700 md:font-semibold md:dark:text-red-400 ' : 'text-gray-700 dark:text-gray-300 dark:hover:md:text-red-400 hover:md:text-red-500'} py-2 px-4 rounded-md text-lg md:text-xl`} >
-        Posts
+        About Us
       </Navbar.Link>
     </Link>
     <Link to='/forum' className="nav-link">
       <Navbar.Link active={path === '/forum'} as={'div'} className={`${path === '/forum' ? 'bg-red-400 md:text-red-500 md:dark:text-red-400 ' : 'text-gray-700 dark:text-gray-300 dark:hover:md:text-red-400 hover:md:text-red-500'} py-2 px-4 rounded-md text-lg md:text-xl`}>
-        Forum
+        Our Services
       </Navbar.Link>
     </Link>
     <Link to='/contact-us' className="nav-link">

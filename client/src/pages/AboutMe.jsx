@@ -10,7 +10,7 @@ export default function HomeMirrored() {
         style={{ zIndex: 1 }}
       >
         <p className="line-clamp-3 text-[#484849] text-center mt-24 ml-44 text-5xl font-serif p-2">
-          Avout Me
+          Avout Us
         </p>
         <p className='text-[#484849] text-center mt-24 ml-44 text-xl font-serif p-2'>Passionate about creating healthy, beautiful smiles, I provide personalized and comfortable dental care. With expertise in [general/cosmetic/restorative dentistry], I focus on preventive care and patient education to ensure lifelong oral health. My goal is to make every visit a positive experience.
 
